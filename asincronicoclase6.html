@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    /*En este ejercicio, deberás crear un Arreglo llamado películas, que tenga -por cada
+//película- un Objeto con las siguientes Propiedades:
+● titulo
+● rating
+● loHasVisto */
+
+    const peliculas = [
+        {
+            titulo: "pacman",
+            rating: 5,
+            loHasVisto: true
+
+        }, 
+        {
+            titulo: "Dr. strange",
+            rating: 3,
+            loHasVisto: false
+        },
+        {
+            titulo: "spiderman",
+            rating: 4,
+            loHasVisto: false
+        }
+    ]
+    for (let i = 0; i < peliculas.length; i++){
+
+  if (peliculas [i].loHasVisto == true){
+  console.log ( 'Viste  "' + peliculas[i].titulo + '" - ' + peliculas [i].rating + '   estrellas' );
+}
+else {
+console.log ('No Viste' + peliculas[i].titulo + '" - ' + peliculas [i].rating + '   estrellas' );
+
+}
+}
+
+    </script>
+</body>
+</html>

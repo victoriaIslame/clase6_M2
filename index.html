@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const miAuto= { 
+    marca:'Toyota',
+    año:2000,
+    nuevo:false
+    }
+    
+    const propertyKey = "modelo"
+    miAuto [propertyKey]= "susuky";
+    const anotherPropertykey = "precio"
+    miAuto [anotherPropertykey]= 4000000;
+    const nextProperty = "color"
+    miAuto  [nextProperty]= "gris";
+
+    for (const propiedad in miAuto){
+        console.log(propiedad + ' : ' + miAuto[propiedad])
+    }
+
+    
+
+    </script>
+</body>
+</html>
